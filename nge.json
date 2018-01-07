@@ -46,7 +46,7 @@
       "class": "nerv"
     },
     {
-      "name": "Gendo&#772 Ikari",
+      "name": "Gendo&#772; Ikari",
       "image": "Gendo_Ikari.png",
       "class": "nerv"
     },
@@ -234,7 +234,7 @@
     },
     {
       "source": "Asuka Langley Sohryu",
-      "source": "Ryoji Kaji",
+      "target": "Ryoji Kaji",
       "type": "romantic"
     },
     {
@@ -444,7 +444,7 @@
     },
     {
       "target": "Unit 03",
-      "source": "To&#772;ji Suzuhara ",
+      "source": "To&#772;ji Suzuhara",
       "type": "subordination"
     },
     {
@@ -494,7 +494,7 @@
     },
     {
       "source": "Unit 02",
-      "target": "Sandalphon ",
+      "target": "Sandalphon",
       "type": "destruction"
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "source": "Unit 01",
-      "target": "Leliel ",
+      "target": "Leliel",
       "type": "destruction"
     },
     {
