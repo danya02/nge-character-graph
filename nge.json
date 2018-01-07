@@ -181,13 +181,13 @@
       "class": "miscellaneous"
     },
     {
-      "name": "Hikari Horaki",
-      "image": "Hikari_Horaki.png",
+      "name": "Kensuke Aida",
+      "image": "Kensuke_Aida.png",
       "class": "miscellaneous"
     },
     {
-      "name": "Kensuke Aida",
-      "image": "Kensuke_Aida.png",
+      "name": "Hikari Horaki",
+      "image": "Hikari_Horaki.png",
       "class": "miscellaneous"
     }
   ],
@@ -233,8 +233,8 @@
       "type": "romantic"
     },
     {
-      "source": "Asuka Langley Sohryu"
-      "Ryoji Kaji",
+      "source": "Asuka Langley Sohryu",
+      "source": "Ryoji Kaji",
       "type": "romantic"
     },
     {
@@ -258,13 +258,13 @@
       "type": "romantic"
     },
     {
-      "source": "Ritsuko Akagi"
-      "Gendo&#772; Ikari",
+      "source": "Ritsuko Akagi",
+      "target": "Gendo&#772; Ikari",
       "type": "romantic"
     },
     {
-      "source": "Ko&#772;zo&#772; Fuyutsuki"
-      "Yui Ikari",
+      "source": "Ko&#772;zo&#772; Fuyutsuki",
+      "target": "Yui Ikari",
       "type": "romantic"
     },
     {
