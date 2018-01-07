@@ -1,0 +1,611 @@
+{
+  "nodes_data": [
+    {
+      "name": "Shinji Ikari",
+      "image": "Shinji_Ikari.png",
+      "class": "pilot"
+    },
+    {
+      "name": "Asuka Langley Sohryu",
+      "image": "Asuka_Langley_Soryu.png",
+      "class": "pilot"
+    },
+    {
+      "name": "Rei Ayanami",
+      "image": "Rei_Ayanami.png",
+      "class": "pilot"
+    },
+    {
+      "name": "To&#772;ji Suzuhara",
+      "image": "Toji_Suzuhara.png",
+      "class": "pilot"
+    },
+    {
+      "name": "Unit 00",
+      "image": "Unit_00.png",
+      "class": "evangelion"
+    },
+    {
+      "name": "Unit 01",
+      "image": "Unit_01.png",
+      "class": "evangelion"
+    },
+    {
+      "name": "Unit 02",
+      "image": "Unit_02.png",
+      "class": "evangelion"
+    },
+    {
+      "name": "Unit 03",
+      "image": "Unit_03.png",
+      "class": "evangelion"
+    },
+    {
+      "name": "Misato Katsuragi",
+      "image": "Misato_Katsuragi.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Gendo&#772 Ikari",
+      "image": "Gendo_Ikari.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Ryoji Kaji",
+      "image": "Ryoji_Kaji.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Yui Ikari",
+      "image": "Yui_Ikari.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Ritsuko Akagi",
+      "image": "Ritsuko_Akagi.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Naoko Akagi",
+      "image": "Naoko_Akagi.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Ko&#772;zo&#772; Fuyutsuki",
+      "image": "Kozo_Fuyutsuki.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Maya Ibuki",
+      "image": "Maya_Ibuki.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Makoto Hyuga",
+      "image": "Makoto_Hyuga.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Shigeru Aoba",
+      "image": "Shigeru_Aoba.png",
+      "class": "nerv"
+    },
+    {
+      "name": "Kaworu Nagisa",
+      "image": "Kaworu_Nagisa.png",
+      "class": "angel"
+    },
+    {
+      "name": "Adam",
+      "image": "Adam.png",
+      "class": "angel"
+    },
+    {
+      "name": "Sachiel",
+      "image": "Sachiel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Shamshel",
+      "image": "Shamshel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Ramiel",
+      "image": "Ramiel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Gaghiel",
+      "image": "Gaghiel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Israfel",
+      "image": "Israfel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Sandalphon",
+      "image": "Sandalphon.png",
+      "class": "angel"
+    },
+    {
+      "name": "Matarael",
+      "image": "Matarael.png",
+      "class": "angel"
+    },
+    {
+      "name": "Sahaquiel",
+      "image": "Sahaquiel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Ireul",
+      "image": "Ireul.png",
+      "class": "angel"
+    },
+    {
+      "name": "Leliel",
+      "image": "Leliel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Bardiel",
+      "image": "Bardiel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Zeruel",
+      "image": "Zeruel.png",
+      "class": "angel"
+    },
+    {
+      "name": "Arael",
+      "image": "Arael.png",
+      "class": "angel"
+    },
+    {
+      "name": "Armisael",
+      "image": "Armisael.png",
+      "class": "angel"
+    },
+    {
+      "name": "Pen Pen",
+      "image": "Pen_Pen.png",
+      "class": "miscellaneous"
+    },
+    {
+      "name": "Keel Lorenz",
+      "image": "Keel_Lorenz.png",
+      "class": "miscellaneous"
+    },
+    {
+      "name": "Hikari Horaki",
+      "image": "Hikari_Horaki.png",
+      "class": "miscellaneous"
+    },
+    {
+      "name": "Kensuke Aida",
+      "image": "Kensuke_Aida.png",
+      "class": "miscellaneous"
+    }
+  ],
+  "links_data": [
+    {
+      "source": "Shinji Ikari",
+      "target": "Kaworu Nagisa",
+      "type": "romantic"
+    },
+    {
+      "source": "Shinji Ikari",
+      "target": "Rei Ayanami",
+      "type": "romantic"
+    },
+    {
+      "source": "Shinji Ikari",
+      "target": "Misato Katsuragi",
+      "type": "romantic"
+    },
+    {
+      "source": "Shinji Ikari",
+      "target": "Asuka Langley Sohryu",
+      "type": "romantic"
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "Kaworu Nagisa",
+      "type": "romantic"
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "Rei Ayanami",
+      "type": "romantic"
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "Misato Katsuragi",
+      "type": "romantic"
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "Asuka Langley Sohryu",
+      "type": "romantic"
+    },
+    {
+      "source": "Asuka Langley Sohryu"
+      "Ryoji Kaji",
+      "type": "romantic"
+    },
+    {
+      "source": "Ritsuko Akagi",
+      "target": "Ryoji Kaji",
+      "type": "romantic"
+    },
+    {
+      "source": "Misato Katsuragi",
+      "target": "Ryoji Kaji",
+      "type": "romantic"
+    },
+    {
+      "target": "Ritsuko Akagi",
+      "source": "Ryoji Kaji",
+      "type": "romantic"
+    },
+    {
+      "target": "Misato Katsuragi",
+      "source": "Ryoji Kaji",
+      "type": "romantic"
+    },
+    {
+      "source": "Ritsuko Akagi"
+      "Gendo&#772; Ikari",
+      "type": "romantic"
+    },
+    {
+      "source": "Ko&#772;zo&#772; Fuyutsuki"
+      "Yui Ikari",
+      "type": "romantic"
+    },
+    {
+      "source": "Yui Ikari",
+      "target": "Gendo&#772; Ikari",
+      "type": "romantic"
+    },
+    {
+      "target": "Yui Ikari",
+      "source": "Gendo&#772; Ikari",
+      "type": "romantic"
+    },
+    {
+      "target": "Yui Ikari",
+      "source": "Ko&#772;zo&#772; Fuyutsuki",
+      "type": "romantic"
+    },
+    {
+      "source": "Gendo&#772; Ikari",
+      "target": "Rei Ayanami",
+      "type": "romantic"
+    },
+    {
+      "target": "Gendo&#772; Ikari",
+      "source": "Rei Ayanami",
+      "type": "romantic"
+    },
+    {
+      "target": "Gendo&#772; Ikari",
+      "source": "Naoko Akagi",
+      "type": "romantic"
+    },
+    {
+      "target": "To&#772;ji Suzuhara",
+      "source": "Hikari Horaki",
+      "type": "romantic"
+    },
+    {
+      "source": "To&#772;ji Suzuhara",
+      "target": "Hikari Horaki",
+      "type": "romantic"
+    },
+    {
+      "target": "Sachiel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Shamshel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Ramiel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Gaghiel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Israfel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Sandalphon",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Matarael",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Sahaquiel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Ireul",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Leliel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Bardiel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Zeruel",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Arael",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Armisael",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Kaworu Nagisa",
+      "source": "Adam",
+      "type": "created"
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "Gendo&#772; Ikari",
+      "type": "created"
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "Yui Ikari",
+      "type": "created"
+    },
+    {
+      "target": "Rei Ayanami",
+      "source": "Gendo&#772; Ikari",
+      "type": "created"
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "Misato Katsuragi",
+      "type": "subordination"
+    },
+    {
+      "target": "Asuka Langley Sohryu",
+      "source": "Misato Katsuragi",
+      "type": "subordination"
+    },
+    {
+      "target": "Rei Ayanami",
+      "source": "Misato Katsuragi",
+      "type": "subordination"
+    },
+    {
+      "target": "Misato Katsuragi",
+      "source": "Gendo&#772; Ikari",
+      "type": "subordination"
+    },
+    {
+      "target": "Gendo&#772; Ikari",
+      "source": "Keel Lorenz",
+      "type": "subordination"
+    },
+    {
+      "source": "Gendo&#772; Ikari",
+      "target": "Ko&#772;zo&#772; Fuyutsuki",
+      "type": "subordination"
+    },
+    {
+      "target": "Unit 00",
+      "source": "Rei Ayanami",
+      "type": "subordination"
+    },
+    {
+      "target": "Unit 01",
+      "source": "Shinji Ikari",
+      "type": "subordination"
+    },
+    {
+      "target": "Unit 02",
+      "source": "Asuka Langley Sohryu",
+      "type": "subordination"
+    },
+    {
+      "target": "Unit 03",
+      "source": "To&#772;ji Suzuhara ",
+      "type": "subordination"
+    },
+    {
+      "source": "Gendo&#772; Ikari",
+      "target": "Makoto Hyuga",
+      "type": "subordination"
+    },
+    {
+      "source": "Gendo&#772; Ikari",
+      "target": "Maya Ibuki",
+      "type": "subordination"
+    },
+    {
+      "source": "Gendo&#772; Ikari",
+      "target": "Shigeru Aoba",
+      "type": "subordination"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Sachiel",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Shamshel",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Ramiel",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 02",
+      "target": "Gaghiel",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 02",
+      "target": "Israfel",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Israfel",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 02",
+      "target": "Sandalphon ",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Matarael",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 02",
+      "target": "Sahaquiel",
+      "type": "destruction"
+    },
+    {
+      "source": "Ritsuko Akagi",
+      "target": "Ireul",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Leliel ",
+      "type": "destruction"
+    },
+    {
+      "source": "Bardiel",
+      "target": "Unit 03",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Unit 03",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 03",
+      "target": "Bardiel",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Zeruel",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 00",
+      "target": "Arael",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 00",
+      "target": "Armisael",
+      "type": "destruction"
+    },
+    {
+      "target": "Unit 00",
+      "source": "Armisael",
+      "type": "destruction"
+    },
+    {
+      "source": "Unit 01",
+      "target": "Kaworu Nagisa",
+      "type": "destruction"
+    },
+    {
+      "source": "Misato Katsuragi",
+      "target": "Pen Pen",
+      "type": "miscellaneous"
+    },
+    {
+      "source": "Hikari Horaki",
+      "target": "Pen Pen",
+      "type": "miscellaneous"
+    },
+    {
+      "source": "To&#772;ji Suzuhara",
+      "target": "Kensuke Aida",
+      "type": "miscellaneous"
+    },
+    {
+      "target": "To&#772;ji Suzuhara",
+      "source": "Kensuke Aida",
+      "type": "miscellaneous"
+    },
+    {
+      "target": "Maya Ibuki",
+      "source": "Makoto Hyuga",
+      "type": "miscellaneous"
+    },
+    {
+      "target": "Maya Ibuki",
+      "source": "Shigeru Aoba",
+      "type": "miscellaneous"
+    },
+    {
+      "target": "Makoto Hyuga",
+      "source": "Shigeru Aoba",
+      "type": "miscellaneous"
+    },
+    {
+      "source": "Maya Ibuki",
+      "target": "Makoto Hyuga",
+      "type": "miscellaneous"
+    },
+    {
+      "source": "Maya Ibuki",
+      "target": "Shigeru Aoba",
+      "type": "miscellaneous"
+    },
+    {
+      "source": "Makoto Hyuga",
+      "target": "Shigeru Aoba",
+      "type": "miscellaneous"
+    }
+  ]
+}
