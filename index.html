@@ -2,10 +2,6 @@
 <meta charset="utf-8">
 <style>
  
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
  
 .nodes circle {
   stroke: #fff;
@@ -74,8 +70,16 @@ function dataLoadedCallback(data){
     .enter().append("line")
       .attr("stroke-width", 2)
       .attr("stroke-linecap", "butt")
-      .attr("stroke", "black")
-      .attr("fill", "red")
+      .attr("stroke", function(d){
+       switch(d.type){
+        case "romantic": return "red";
+        case "created": return "green";
+        case "subordination": return "blue";
+        case "destruction": return "black";
+        case "miscellaneous": return "gray";
+        default: return d.type;
+       }
+      })
       .attr("marker-end", "url(#arrow)"); 
   var node = svg.append("g")
         .attr("class", "nodes")
@@ -93,6 +97,7 @@ function dataLoadedCallback(data){
          case "miscellaneous": return "black";
          default: return d.class;
         }})
+        .attr("xlink:href",function(d){d.image})
         .on("click", function(d){d3.select("#text").html(d.name);});
   simulation = d3.forceSimulation()
               .nodes(window.nodes_data);
