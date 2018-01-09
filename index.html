@@ -67,6 +67,16 @@ function dataLoadedCallback(data){
   window.nodes_data=data.nodes_data;
   window.links_data=data.links_data;
 
+   var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(links_data)
+    .enter().append("line")
+      .attr("stroke-width", 2)
+      .attr("stroke-linecap", "butt")
+      .attr("stroke", "black")
+      .attr("fill", "red")
+      .attr("marker-end", "url(#arrow)"); 
   var node = svg.append("g")
         .attr("class", "nodes")
         .selectAll("circle")
@@ -74,14 +84,16 @@ function dataLoadedCallback(data){
         .enter()
         .append("circle")
         .attr("r", 5)
+        .attr("fill", function(d){
+        switch(d.class){
+         case "pilot": return "green";
+         case "evangelion": return "yellow";
+         case "nerv": return "red";
+         case "angel": return "gray";
+         case "miscellaneous": return "black";
+         default: return d.class;
+        }})
         .on("click", function(d){d3.select("#text").html(d.name);});
-   var link = svg.append("g")
-      .attr("class", "links")
-    .selectAll("line")
-    .data(links_data)
-    .enter().append("line")
-      .attr("stroke-width", 2)
-      .attr("marker-end", "url(#arrow)"); 
   simulation = d3.forceSimulation()
               .nodes(window.nodes_data);
   simulation.on("tick",function(){tickActionsNode(node);tickActionsLink(link);} );
