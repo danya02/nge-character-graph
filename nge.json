@@ -1,266 +1,401 @@
 {
+  "version": "1.0",
+  "tex_version": "$\\alpha$",
   "nodes_data": [
     {
       "name": "Shinji Ikari",
       "image": "Shinji_Ikari.png",
-      "class": "pilot"
+      "class": "pilot",
+      "node_name": "SI",
+      "tex_width": "1.25cm",
+      "tex_pos": "(0,0)"
     },
     {
       "name": "Asuka Langley Sohryu",
       "image": "Asuka_Langley_Soryu.png",
-      "class": "pilot"
+      "class": "pilot",
+      "node_name": "ALS",
+      "tex_width": "2cm",
+      "tex_pos": "(-3.5cm,7cm)"
     },
     {
       "name": "Rei Ayanami",
       "image": "Rei_Ayanami.png",
-      "class": "pilot"
+      "class": "pilot",
+      "node_name": "RA",
+      "tex_width": "0.9cm",
+      "tex_pos": "(3.5cm,7cm)"
     },
     {
       "name": "To&#772;ji Suzuhara",
+      "tex_name": "T\\={o}ji Suzuhara",
       "image": "Toji_Suzuhara.png",
-      "class": "pilot"
+      "class": "pilot",
+      "node_name": "TS",
+      "tex_width": "0.6cm",
+      "tex_pos": "(0,14cm)"
     },
     {
       "name": "Unit 00",
       "image": "Unit_00.png",
-      "class": "evangelion"
+      "class": "evangelion",
+      "node_name": "U0",
+      "tex_width": "2.5cm",
+      "tex_pos": "(-15cm,-10cm)"
     },
     {
       "name": "Unit 01",
       "image": "Unit_01.png",
-      "class": "evangelion"
+      "class": "evangelion",
+      "node_name": "U1",
+      "tex_width": "2.5cm",
+      "tex_pos": "(-10cm,-10cm)"
     },
     {
       "name": "Unit 02",
       "image": "Unit_02.png",
-      "class": "evangelion"
+      "class": "evangelion",
+      "node_name": "U2",
+      "tex_width": "2.5cm",
+      "tex_pos": "(10cm,-10cm)"
     },
     {
       "name": "Unit 03",
       "image": "Unit_03.png",
-      "class": "evangelion"
+      "class": "evangelion",
+      "node_name": "U3",
+      "tex_width": "2.5cm",
+      "tex_pos": "(15cm,-10cm)"
     },
     {
       "name": "Misato Katsuragi",
       "image": "Misato_Katsuragi.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "MK",
+      "tex_width": "1.5cm",
+      "tex_pos": "(-5cm,0)"
     },
     {
       "name": "Gendo&#772; Ikari",
+      "tex_name": "Gend\\={o} Ikari",
       "image": "Gendo_Ikari.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "GI",
+      "tex_width": "1.2cm",
+      "tex_pos": "(5cm,2.5cm)"
     },
     {
       "name": "Ryoji Kaji",
       "image": "Ryoji_Kaji.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "RK",
+      "tex_width": "0.75cm",
+      "tex_pos": "(-5cm,-5cm)"
     },
     {
       "name": "Yui Ikari",
       "image": "Yui_Ikari.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "YI",
+      "tex_width": "0.9cm",
+      "tex_pos": "(5cm,-2.5cm)"
     },
     {
       "name": "Ritsuko Akagi",
       "image": "Ritsuko_Akagi.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "RAS",
+      "tex_width": "1.4cm",
+      "tex_pos": "(-10cm,-5cm)"
     },
     {
       "name": "Naoko Akagi",
       "image": "Naoko_Akagi.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "NA",
+      "tex_width": "1cm",
+      "tex_pos": "(7.5cm,7.5cm)"
     },
     {
       "name": "Ko&#772;zo&#772; Fuyutsuki",
+      "tex_name": "K\\={o}z\\={o} Fuyutsuki",
       "image": "Kozo_Fuyutsuki.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "KF",
+      "tex_width": "1.1cm",
+      "tex_pos": "(10cm,-2.5cm)"
     },
     {
       "name": "Maya Ibuki",
       "image": "Maya_Ibuki.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "MI",
+      "tex_width": "1.2cm",
+      "tex_pos": "(13cm,-5cm)"
     },
     {
       "name": "Makoto Hyuga",
       "image": "Makoto_Hyuga.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "MH",
+      "tex_width": "0.9cm",
+      "tex_pos": "(17cm,-3cm)"
     },
     {
       "name": "Shigeru Aoba",
       "image": "Shigeru_Aoba.png",
-      "class": "nerv"
+      "class": "nerv",
+      "node_name": "SA",
+      "tex_width": "2cm",
+      "tex_pos": "(17cm,-7cm)"
     },
     {
       "name": "Kaworu Nagisa",
       "image": "Kaworu_Nagisa.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "KN",
+      "tex_width": "1.9cm",
+      "tex_pos": "(0cm,-14cm)"
     },
     {
       "name": "Adam",
       "image": "Adam.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A1",
+      "tex_width": "2cm",
+      "tex_pos": "(0,-28cm)"
     },
     {
       "name": "Sachiel",
       "image": "Sachiel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A3",
+      "tex_width": "2cm",
+      "tex_pos": "(-18.5cm,-25cm)"
     },
     {
       "name": "Shamshel",
       "image": "Shamshel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A4",
+      "tex_width": "2cm",
+      "tex_pos": "(-18.5cm,-30cm)"
     },
     {
       "name": "Ramiel",
       "image": "Ramiel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A5",
+      "tex_width": "2cm",
+      "tex_pos": "(-18.5cm,-35cm)"
     },
     {
       "name": "Gaghiel",
       "image": "Gaghiel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A6",
+      "tex_width": "2cm",
+      "tex_pos": "(-14cm,-35cm)"
     },
     {
       "name": "Israfel",
       "image": "Israfel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A7",
+      "tex_width": "2cm",
+      "tex_pos": "(-9.5cm,-35cm)"
     },
     {
       "name": "Sandalphon",
       "image": "Sandalphon.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A8",
+      "tex_width": "2cm",
+      "tex_pos": "(-5cm,-35cm)"
     },
     {
       "name": "Matarael",
       "image": "Matarael.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A9",
+      "tex_width": "2cm",
+      "tex_pos": "(-1.5cm,-35cm)"
     },
     {
       "name": "Sahaquiel",
       "image": "Sahaquiel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A10",
+      "tex_width": "2cm",
+      "tex_pos": "(1.5cm,-35cm)"
     },
     {
       "name": "Ireul",
       "image": "Ireul.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A11",
+      "tex_width": "2cm",
+      "tex_pos": "(5cm,-35cm)"
     },
     {
       "name": "Leliel",
       "image": "Leliel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A12",
+      "tex_width": "2cm",
+      "tex_pos": "(9.5cm,-35cm)"
     },
     {
       "name": "Bardiel",
       "image": "Bardiel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A13",
+      "tex_width": "2cm",
+      "tex_pos": "(14cm,-35cm)"
     },
     {
       "name": "Zeruel",
       "image": "Zeruel.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A14",
+      "tex_width": "2cm",
+      "tex_pos": "(18.5cm,-35cm)"
     },
     {
       "name": "Arael",
       "image": "Arael.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A15",
+      "tex_width": "2cm",
+      "tex_pos": "(18.5cm,-30cm)"
     },
     {
       "name": "Armisael",
       "image": "Armisael.png",
-      "class": "angel"
+      "class": "angel",
+      "node_name": "A16",
+      "tex_fill": "gray",
+      "tex_width": "2cm",
+      "tex_pos": "(18.5cm,-25cm)"
     },
     {
       "name": "Pen Pen",
+      "tex_name": "Pen\\textsuperscript{2}",
       "image": "Pen_Pen.png",
-      "class": "miscellaneous"
+      "class": "miscellaneous",
+      "node_name": "PP",
+      "tex_width": "2cm",
+      "tex_pos": "(-15cm,0cm)"
     },
     {
       "name": "Keel Lorenz",
       "image": "Keel_Lorenz.png",
-      "class": "miscellaneous"
+      "class": "miscellaneous",
+      "node_name": "KL",
+      "tex_width": "1.25cm",
+      "tex_pos": "(14cm,1.25cm)"
     },
     {
       "name": "Kensuke Aida",
       "image": "Kensuke_Aida.png",
-      "class": "miscellaneous"
+      "class": "miscellaneous",
+      "node_name": "KA",
+      "tex_width": "1.25cm",
+      "tex_pos": "(14cm,10cm)"
     },
     {
       "name": "Hikari Horaki",
       "image": "Hikari_Horaki.png",
-      "class": "miscellaneous"
+      "class": "miscellaneous",
+      "node_name": "HH",
+      "tex_width": "0.7cm",
+      "tex_pos": "(-14cm,10cm)"
     }
   ],
   "links_data": [
     {
       "source": "Shinji Ikari",
       "target": "Kaworu Nagisa",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": 1
     },
     {
       "source": "Shinji Ikari",
       "target": "Rei Ayanami",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": 1
     },
     {
       "source": "Shinji Ikari",
       "target": "Misato Katsuragi",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": 1
     },
     {
       "source": "Shinji Ikari",
       "target": "Asuka Langley Sohryu",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": 1
     },
     {
       "target": "Shinji Ikari",
       "source": "Kaworu Nagisa",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": -1
     },
     {
       "target": "Shinji Ikari",
       "source": "Rei Ayanami",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": -1
     },
     {
       "target": "Shinji Ikari",
       "source": "Misato Katsuragi",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": -1
     },
     {
       "target": "Shinji Ikari",
       "source": "Asuka Langley Sohryu",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": -1
     },
     {
       "source": "Asuka Langley Sohryu",
       "target": "Ryoji Kaji",
-      "type": "romantic"
+      "type": "romantic",
+      "tex_bend": "right=60"
     },
     {
       "source": "Ritsuko Akagi",
       "target": "Ryoji Kaji",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": 1
     },
     {
       "source": "Misato Katsuragi",
       "target": "Ryoji Kaji",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": 1
     },
     {
       "target": "Ritsuko Akagi",
       "source": "Ryoji Kaji",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": -1
     },
     {
       "target": "Misato Katsuragi",
       "source": "Ryoji Kaji",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": -1
     },
     {
       "source": "Ritsuko Akagi",
       "target": "Gendo&#772; Ikari",
-      "type": "romantic"
+      "type": "romantic",
+      "tex_bend": "right=9999"
     },
     {
       "source": "Ko&#772;zo&#772; Fuyutsuki",
@@ -270,12 +405,14 @@
     {
       "source": "Yui Ikari",
       "target": "Gendo&#772; Ikari",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": 1
     },
     {
       "target": "Yui Ikari",
       "source": "Gendo&#772; Ikari",
-      "type": "romantic"
+      "type": "romantic",
+      "bidirectional": -1
     },
     {
       "target": "Yui Ikari",
@@ -310,22 +447,26 @@
     {
       "target": "Sachiel",
       "source": "Adam",
-      "type": "created"
+      "type": "created",
+      "tex_bend": "right=10"
     },
     {
       "target": "Shamshel",
       "source": "Adam",
-      "type": "created"
+      "type": "created",
+      "tex_bend": "right=15"
     },
     {
       "target": "Ramiel",
       "source": "Adam",
-      "type": "created"
+      "type": "created",
+      "tex_bend": "right=10"
     },
     {
       "target": "Gaghiel",
       "source": "Adam",
-      "type": "created"
+      "type": "created",
+      "tex_bend": "right=5"
     },
     {
       "target": "Israfel",
@@ -360,22 +501,26 @@
     {
       "target": "Bardiel",
       "source": "Adam",
-      "type": "created"
+      "type": "created",
+      "tex_bend": "left=5"
     },
     {
       "target": "Zeruel",
       "source": "Adam",
-      "type": "created"
+      "type": "created",
+      "tex_bend": "left=10"
     },
     {
       "target": "Arael",
       "source": "Adam",
-      "type": "created"
+      "type": "created",
+      "tex_bend": "left=15"
     },
     {
       "target": "Armisael",
       "source": "Adam",
-      "type": "created"
+      "type": "created",
+      "tex_bend": "left=10"
     },
     {
       "target": "Kaworu Nagisa",
@@ -400,7 +545,8 @@
     {
       "target": "Shinji Ikari",
       "source": "Misato Katsuragi",
-      "type": "subordination"
+      "type": "subordination",
+      "tex_bend": "right=15"
     },
     {
       "target": "Asuka Langley Sohryu",
@@ -415,7 +561,8 @@
     {
       "target": "Misato Katsuragi",
       "source": "Gendo&#772; Ikari",
-      "type": "subordination"
+      "type": "subordination",
+      "tex_bend": "right=15"
     },
     {
       "target": "Gendo&#772; Ikari",
@@ -430,22 +577,33 @@
     {
       "target": "Unit 00",
       "source": "Rei Ayanami",
-      "type": "subordination"
+      "type": "subordination",
+      "tex_bend": "right=15"
     },
     {
       "target": "Unit 01",
       "source": "Shinji Ikari",
-      "type": "subordination"
+      "type": "subordination",
+      "tex_bend": "left=25"
     },
     {
       "target": "Unit 02",
       "source": "Asuka Langley Sohryu",
-      "type": "subordination"
+      "type": "subordination",
+      "tex_bend": "right=45"
+    },
+    {
+      "target": "Unit 02",
+      "source": "Shinji Ikari",
+      "type": "subordination",
+      "text": "Episode 08 only",
+      "tex_bend": "right=5"
     },
     {
       "target": "Unit 03",
       "source": "To&#772;ji Suzuhara",
-      "type": "subordination"
+      "type": "subordination",
+      "tex_bend": "left=45"
     },
     {
       "source": "Gendo&#772; Ikari",
@@ -455,12 +613,14 @@
     {
       "source": "Gendo&#772; Ikari",
       "target": "Maya Ibuki",
-      "type": "subordination"
+      "type": "subordination",
+      "tex_bend": "right=35"
     },
     {
       "source": "Gendo&#772; Ikari",
       "target": "Shigeru Aoba",
-      "type": "subordination"
+      "type": "subordination",
+      "tex_bend": "left=10"
     },
     {
       "source": "Unit 01",
@@ -525,7 +685,8 @@
     {
       "source": "Unit 01",
       "target": "Unit 03",
-      "type": "destruction"
+      "type": "destruction",
+      "tex_bend": "left=30"
     },
     {
       "source": "Unit 03",
@@ -545,12 +706,14 @@
     {
       "source": "Unit 00",
       "target": "Armisael",
-      "type": "destruction"
+      "type": "destruction",
+      "bidirectional": 1
     },
     {
       "target": "Unit 00",
       "source": "Armisael",
-      "type": "destruction"
+      "type": "destruction",
+      "bidirectional": -1
     },
     {
       "source": "Unit 01",
@@ -570,42 +733,50 @@
     {
       "source": "To&#772;ji Suzuhara",
       "target": "Kensuke Aida",
-      "type": "miscellaneous"
+      "type": "miscellaneous",
+      "bidirectional": 1
     },
     {
       "target": "To&#772;ji Suzuhara",
       "source": "Kensuke Aida",
-      "type": "miscellaneous"
+      "type": "miscellaneous",
+      "bidirectional": -1
     },
     {
       "target": "Maya Ibuki",
       "source": "Makoto Hyuga",
-      "type": "miscellaneous"
+      "type": "miscellaneous",
+      "bidirectional": 1
     },
     {
       "target": "Maya Ibuki",
       "source": "Shigeru Aoba",
-      "type": "miscellaneous"
+      "type": "miscellaneous",
+      "bidirectional": 1
     },
     {
       "target": "Makoto Hyuga",
       "source": "Shigeru Aoba",
-      "type": "miscellaneous"
+      "type": "miscellaneous",
+      "bidirectional": 1
     },
     {
       "source": "Maya Ibuki",
       "target": "Makoto Hyuga",
-      "type": "miscellaneous"
+      "type": "miscellaneous",
+      "bidirectional": -1
     },
     {
       "source": "Maya Ibuki",
       "target": "Shigeru Aoba",
-      "type": "miscellaneous"
+      "type": "miscellaneous",
+      "bidirectional": -1
     },
     {
       "source": "Makoto Hyuga",
       "target": "Shigeru Aoba",
-      "type": "miscellaneous"
+      "type": "miscellaneous",
+      "bidirectional": -1
     }
   ]
 }
