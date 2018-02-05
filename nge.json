@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.01",
   "tex_version": "$\\alpha$",
   "nodes_data": [
     {
@@ -422,7 +422,7 @@
     {
       "source": "Gendo&#772; Ikari",
       "target": "Rei Ayanami",
-      "type": "romantic"
+      "type": "miscellaneous"
     },
     {
       "target": "Gendo&#772; Ikari",
@@ -775,6 +775,44 @@
     {
       "source": "Makoto Hyuga",
       "target": "Shigeru Aoba",
+      "type": "miscellaneous",
+      "bidirectional": -1
+    },
+    {
+      "source": "Hikari Horaki",
+      "target": "Asuka Langley Sohryu",
+      "type": "miscellaneous",
+      "bidirectional": 1
+    },
+    {
+      "target": "Hikari Horaki",
+      "source": "Asuka Langley Sohryu",
+      "type": "miscellaneous",
+      "bidirectional": -1
+    },
+    {
+      "source": "Shinji Ikari",
+      "target": "To&#772;ji Suzuhara",
+      "type": "miscellaneous",
+      "bidirectional": 1
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "To&#772;ji Suzuhara",
+      "type": "miscellaneous",
+      "bidirectional": -1
+    },
+    {
+      "source": "Shinji Ikari",
+      "target": "Kensuke Aida",
+      "type": "miscellaneous",
+      "bidirectional": 1,
+      "tex_bend": "right=30"
+
+    },
+    {
+      "target": "Shinji Ikari",
+      "source": "Kensuke Aida",
       "type": "miscellaneous",
       "bidirectional": -1
     }
